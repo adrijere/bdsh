@@ -5,10 +5,13 @@ Emulated database written in shell script
 SYNOPSIS
 ========
 
-./bdsh.sh [-k] [-f "db_file"] put ("key" | $"value") ("value" | $"key") | 
+./bdsh.sh [-k] [-f "db_file"] (put ("key" | $"value") ("value" | $"key") | 
+
                               del ("key" | $"key") ["value" | $"key"] |
+
                               select ["expr" | $"key"] |
-			      flush
+
+			      flush)
 
 - put "key" "value" : Add a key "key" that contains the value <value>.
 If the key exists already, the value is overwritten.
