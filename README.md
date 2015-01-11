@@ -32,5 +32,5 @@ also displayed like :
 <key>=<value>
 No spaces or other characters apart from the '=' between the key and the value.
 
-[-F <db_file] is optional option which use the db_file on the program. If [-f] is not enabled, the program 
-use the file "sh.db". 
+[-F <db_file] is optional option which use the db_file on the program. If [-f] is not enabled, the program
+use the file "sh.db".
