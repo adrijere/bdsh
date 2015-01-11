@@ -7,11 +7,8 @@ SYNOPSIS
 
 
 			./bdsh.sh [-k] [-f <db_file>] (put (<key> | $<value>) (<value> | $<key>) | 
-
                               del (<key> | $<key>) [<value> | $<key>] |
-
                               select [<expr> | $<key>] |
-
 			      flush)
 
 - put "key" "value" : Add a key "key" that contains the value <value>.
@@ -36,5 +33,5 @@ also displayed like :
 "key"="value"
 No spaces or other characters apart from the '=' between the key and the value.
 
-[-F <db_file] is optional option which use the db_file on the program. If [-f] is not enabled, the program
+[-F "db_file"] is optional option which use the db_file on the program. If [-f] is not enabled, the program
 use the file "sh.db".
