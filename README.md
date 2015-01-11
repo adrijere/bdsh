@@ -5,7 +5,8 @@ Emulated database written in shell script
 SYNOPSIS
 ========
 
-./bdsh.sh [-k] [-f "db_file"] (put ("key" | $"value") ("value" | $"key") | 
+
+			./bdsh.sh [-k] [-f "db_file"] (put ("key" | $"value") ("value" | $"key") | 
 
                               del ("key" | $"key") ["value" | $"key"] |
 
